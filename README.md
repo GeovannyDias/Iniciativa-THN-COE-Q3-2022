@@ -27,6 +27,8 @@
 
 ## 06.
 
+![image](https://user-images.githubusercontent.com/23192401/181152381-8c136387-835c-4ba7-8d9b-14155acdf1ad.png)
+
 
 ```
 
