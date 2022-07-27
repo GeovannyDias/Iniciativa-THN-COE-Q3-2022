@@ -13,8 +13,6 @@
 
 05. Add > New Project > ASP.NET Core Web Api (C#) → (Company.API)
 
-image.png
-
 06. Add > New Project > Class Library (C#) → (Company.BL)
 07. Add > New Project > Class Library (C#) → (Company.DAL)
 
