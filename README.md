@@ -1,7 +1,7 @@
 # Iniciativa THN-COE Q3 - (2022)
 .Net Core 6, Angular, Sql Server
 
-## Creación y configuración del proyecto con arquitectura en capas.
+## 01. Creación y configuración del proyecto con arquitectura en capas.
 
 ```
 01. Open Visual Studio 2022
