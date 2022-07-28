@@ -52,11 +52,7 @@ Click derecho en la capa: (Company.API) > Set as Startup Project
 ![image](https://user-images.githubusercontent.com/23192401/181152381-8c136387-835c-4ba7-8d9b-14155acdf1ad.png)
 
 
-```
-
-```
-
-##
+## Creación de modelos, controladores, repositorios
 
 ```
 
