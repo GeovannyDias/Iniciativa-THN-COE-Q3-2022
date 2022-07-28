@@ -125,9 +125,31 @@ Example:
 
 
 ```
-##
+## Migration (ORM)
 
 ```
+Abrir la consola de administrador de paquetes, seleccionar la capa de acceso
+a datos (Company.DAL) y ejecutar los siguientes comandos:
+
+- Tools > NuGet Package Manager > Packages Manager Console
+- Default Project: src\Company.DAL
+
+Comandos a ejecutar:
+
+
+Add-Migration v1.0.0    →  (Add-Migration name_migration → Realiza el mapedo y crea la migración con su nombre como versión)
+
+Update-database    →  (Actualiza la base de datos creando la db y tablas)
+
+
+
+Alternativo:
+
+remove-migration → (Remueve la migración)
+
+
+NOTA: en la capa (Company.DAL) se creará automáticamente la carpeta Migrations con la
+      migración que se enviará a la base de datos.
 
 ```
 ##
