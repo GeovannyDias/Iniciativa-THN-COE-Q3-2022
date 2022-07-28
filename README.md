@@ -56,8 +56,52 @@ Click derecho en la capa: (Company.API) > Set as Startup Project
 
 ```
 
+Creamos las capertas necesarias en cada capa, 
+y en la capa *.BL y *.DAL eliminamos el fichero Class1.cs:
+
+01. (Company.API):
+    Controllers → (Esta carpeta ya se encuentra creada por defecto)
+
+02. (Company.BL):
+    Repositories
+    Services
+
+03. (Company.DAL):
+    Models
+    
+
+04. En la capa de accesos a datos (Company.DAL), en la carpeta Models click derecho
+    añadir clase y creamos la clase User.cs:
+    
+    add > class > Code > Class → (User.cs)
+
+
+    En la capa de accesos a datos (Company.DAL), en la raíz (capa) click derecho
+    añadir clase y creamos la clase ApiDbContext.cs:
+    
+    add > class > Code > Class → (ApiDbContext.cs)
+
+    
+05. En la capa de negocio (Company.BL), en la carpeta Repositories click derecho
+    añadir clase, interfaz y creamos la interfaz IUserRepository.cs:
+
+    add > class > Code > Interface → (IUserRepository.cs)
+    
+    
+    En la capa de negocio (Company.BL), en la carpeta ReposServices click derecho
+    añadir clase y creamos la clase UserService.cs:
+
+    add > class > Code > Class → (UserService.cs)
+
+
+07. En la capa de prensentación (Company.API), en la carpeta Controllers click derecho
+    añadir controller y creamos el controlador UserController.cs:
+
+    add > controller > API > API Controller with read/write actions → (UserController.cs)
+
+
 ```
-##
+## 
 
 ```
 
