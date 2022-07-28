@@ -1,7 +1,7 @@
 # Iniciativa THN-COE Q3 - (2022)
 .Net Core 6, Angular, Sql Server
 
-## Creación y configuración del proyecto con arquitectura en capas.
+## 01. Creación y configuración del proyecto con arquitectura en capas.
 
 ```
 01. Open Visual Studio 2022
@@ -52,7 +52,7 @@ Click derecho en la capa: (Company.API) > Set as Startup Project
 ![image](https://user-images.githubusercontent.com/23192401/181152381-8c136387-835c-4ba7-8d9b-14155acdf1ad.png)
 
 
-## Creación de modelos, controladores, repositorios
+## 02. Creación de modelos, controladores, repositorios
 
 ```
 
@@ -101,7 +101,7 @@ y en la capa *.BL y *.DAL eliminamos el fichero Class1.cs:
 
 
 ```
-## Configuración y conexión a la base de datos
+## 03. Configuración y conexión a la base de datos
 
 ```
 01. En la capa (Company.API), en el fichero appsettings.json agregamos nuestro string de
@@ -125,7 +125,7 @@ Example:
 
 
 ```
-## Migration (ORM)
+## 04. Migration (ORM)
 
 ```
 Abrir la consola de administrador de paquetes, seleccionar la capa de acceso
