@@ -101,9 +101,28 @@ y en la capa *.BL y *.DAL eliminamos el fichero Class1.cs:
 
 
 ```
-## 
+## Configuración y conexión a la base de datos
 
 ```
+01. En la capa (Company.API), en el fichero appsettings.json agregamos nuestro string de
+    conexión para luego llamar el objeto y leer la cadena de conexión.
+
+"Server=(local)\\;Database=NameDB;Trusted_Connection=True;MultipleActiveResultSets=True"
+
+Example:
+
+"ConnectionStrings": {
+    "DevConnection": "Server=(local)\\;Database=company_db;Trusted_Connection=True;MultipleActiveResultSets=True"
+}
+
+
+02. En la capa (Company.API), en el fichero Program.cs, configuramos la conexión a la base de datos y realizamos la inyeccion de dependencias.
+    
+    - Ver código comentado
+
+      // DATABASE CONNECTION *
+      // INYECCIÓN DE DEPENDENCIAS *
+
 
 ```
 ##
