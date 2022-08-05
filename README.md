@@ -169,4 +169,14 @@ NOTA: en la capa (Company.DAL) se creará automáticamente la carpeta Migrations
     app.UseCors("AllowWebApp"); // Cors
 
 
+
+OPCIONAL: 
+
+Es recomendable convertir todas las rutas (endpoints) en letra minúscula, en el mismo fichero Program.cs
+agregamos la siguiente línea de código.
+
+// CONVERTIR RUTAS EN MINÚSCULAS
+builder.Services.AddRouting(routing => routing.LowercaseUrls = true);
+
+
 ```
