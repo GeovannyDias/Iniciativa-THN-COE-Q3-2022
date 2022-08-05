@@ -25,6 +25,12 @@ builder.Services.AddDbContext<ApiDbContext>(options => options.UseSqlServer(
     ));
 
 
+// CORS * AddPolicy("NameCors",policyBuilder)
+builder.Services.AddCors(options => options.AddPolicy("AllowWebApp",
+    policyBuilder => policyBuilder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()
+    ));
+
+
 // INYECCIÓN DE DEPENDENCIAS * (Agregar database connection)
 builder.Services.AddTransient<IUserRepository, UserService>();
 
@@ -37,6 +43,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// CORS * app.UseCors("NameCors");
+app.UseCors("AllowWebApp"); // Cors
 
 app.UseHttpsRedirection();
 

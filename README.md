@@ -152,8 +152,21 @@ NOTA: en la capa (Company.DAL) se creará automáticamente la carpeta Migrations
       migración que se enviará a la base de datos.
 
 ```
-##
+## 05. Allow CORS
 
 ```
+
+01. En la capa (Company.API), en el fichero Program.cs, habilitamos CORS agregando las siguientes líneas de código.
+    
+    - Ver código
+
+    // CORS *
+    builder.Services.AddCors(options => options.AddPolicy("AllowWebApp",
+        policyBuilder => policyBuilder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()
+        ));
+
+    // CORS *
+    app.UseCors("AllowWebApp"); // Cors
+
 
 ```
