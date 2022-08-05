@@ -43,11 +43,11 @@ Click derecho en la capa: (Company.API) > Set as Startup Project
 
 
 
-imagen de paso (05)
+Imagen de sección (1) paso (05)
 
 ![image](https://user-images.githubusercontent.com/23192401/181151719-c600f5ce-3e7e-4a60-9140-dd50f071c9c1.png)
 
-imagen de paso (06)
+Imagen de sección (1) paso (06)
 
 ![image](https://user-images.githubusercontent.com/23192401/181152381-8c136387-835c-4ba7-8d9b-14155acdf1ad.png)
 
